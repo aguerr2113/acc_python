@@ -76,6 +76,31 @@ question_prompts = [
     "34. Windows, Linux, Android, iOS, and macOS are all examples of application software.(t)(f)\n",
 
     "35. Word processing programs, spreadsheet programs, email programs, web browsers, and games are all examples of utility programs.(t)(f)\n",
+    # ----------------------------------------------
+    # short answer
+    # ----------------------------------------------
+    "36.why is the cpu the most important component in a computer?\n",
+    # Because the CPU is responsible for managing all the other components: including memory, storage, input and output devices. 
+
+    "37.What number does a bit that is turned on represent?\nWhat number does a bit that is turned off represent?\n",
+    # a bit turned on represents one,off represents 0
+
+    "38.What would you call a device that works with binary data?\n",
+    # Digital Device
+
+
+    "39.What are the words that make up a high-level programming language called?\n",
+    # Keywords are the words that make up a high-level programming language. 
+
+    "40.What are the short words that are used in assembly language called?\n",
+    # mnenomics
+
+    "41.What is the difference between a compiler and an interpreter?\n",
+    
+    # An interpreter produces a result from a program, while a compiler produces a program written in assembly language.
+
+    "42.What type of software controls the internal operations of the computer's hardware\n",
+    # system software such as windows linux mac os
 
 ]
 
@@ -115,6 +140,14 @@ questions = [
     Question(question_prompts[32], "f"),
     Question(question_prompts[33], "f"),
     Question(question_prompts[34], "f"),
+    Question(question_prompts[35], "Because the CPU is responsible for managing all the other components: including memory, storage, input and output devices."),
+    Question(question_prompts[36], "a bit turned on represents one,off represents 0"),
+    Question(question_prompts[37], "Digital Device"),
+    Question(question_prompts[38], "Keywords are the words that make up a high-level programming language."),
+    Question(question_prompts[39], "mnenomics"),
+    Question(question_prompts[40], "An interpreter produces a result from a program, while a compiler produces a program written in assembly language."),
+    Question(question_prompts[41], "system software such as windows linux mac os"),
+
 
 ]
 
@@ -158,224 +191,105 @@ run_test(questions)
 
 
 
-#            .
 
-# 
 
-# 
 
-# 
 
-# 
 
-# 4.	           .
 
-# m)	
 
-# n)	
 
-# o)	
 
-# p)	
 
 
 
-# 6.	
 
-# u)	
 
-# v)	
 
-# w)	
 
-# x)	
 
-# 7.	           .
 
-# y)	RAM
 
-# z)	main memory
 
-# aa)	secondary storage
 
-# bb)	CPU storage
 
-# 8.	           .
 
-# cc)	
 
-# dd)	
 
-# ee)	
 
-# ff)	
 
-# 9.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 10.	
 
-# e)	
 
-# f)	
 
-# g)	
 
-# transi
 
-# 11.	
 
-# h)	
 
-# i)	
 
-# j)	
 
-# k)	
 
-# 12.	
 
-# l)	
 
-# m)	
 
-# n)	
 
-# o)	
 
-# 13.	
 
-# p)	
 
-# q)	
 
-# r)	
 
-# s)	
 
-# 14.	ters is      
 
-# t)	
 
-# u)	
 
-# v)	
 
-# w)	
 
-# 15.	
 
-# x)	
 
-# y)	
 
-# z)	
 
-# aa)	
 
-# 16.	
 
-# bb)	
 
-# cc)	
 
-# dd)	
 
-# ee)	
 
-# 17.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 18.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 19.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 20.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 21.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 22.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 23.	
 
-# a)	
 
-# b)	
 
-# c)	
 
-# d)	
 
-# 24.	
-
-# a)	
-
-# b)	
-
-# c)	
-
-# d)	
-
-# 25.	
-
-# a)	
-
-# b)	
-
-# c)	
-
-# d)	

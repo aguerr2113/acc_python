@@ -67,8 +67,113 @@ question_prompts = [
     "26.In Python, the first character of a variable name cannot be a   number.(t)(f)\n",
 
     "27.If you print a variable that has not been assigned a value, the number 0 will be displayed.(t)(f)\n",
+    # ----------------------------------------------
+    # short answer
+    # ----------------------------------------------
+    "28.What does a professional programmer usually do first to gain an understanding of a problem?\n",
+    # They would first need to understand the requirements that are needed for the program.  Requirements include the task or goals which the program has to perform.
+    # ----------------------------------------------
+    "29.What is pseudocode?\n",
+    # Puedo code is an informal description of an algorithm, which doesn't include syntax
+    # ----------------------------------------------
+    "30.Computer programs typically perform what three steps?\n",
+    # input is received
+    # some process has to be performed on the out
+    # Output
+    # ----------------------------------------------
+    "31.If a math expression adds a float to an int, what will the data type of the result be?\n",
+    # The result would be given as float data.
+    # ----------------------------------------------
+    "32.What is the difference between floating-point division and integer division?\n",
+    # Float division: gives a decimal answer. Integer division: gives the answer in whole numbers ----------------------------------------------
+    "33.What is a magic number?\nWhy are magic numbers problematic?\n",
+    #  A unique value with unexplained meaning 
+    #  it makes code difficult to understand and maintain.
+    # ----------------------------------------------
+    "34.Assume a program uses the named constant PI to represent the value 3.14159. The program uses the named constant in several statements. What is the advantage of using the named constant instead of the actual value 3.14159 in each statement?\n",
+    #The named constant makes the program more self-explanatory ,widespread changes can easily be made to the program,and  it helps to prevent the typographical errors that are common when using magic numbers
 
 ]
+#35 Write Python code that prompts the user to enter his or her height and assigns the user’s input to a variable named height.
+# print("Enter the height in meters:")
+# height = input()
+# print("You are", height)
+
+#36 Write Python code that prompts the user to enter his or her favorite color and assigns the user’s input to a variable named color.
+# color=input('Enter your favorite color')
+
+#37 Write assignment statements that perform the following operations with the variables a, b, and c:
+
+#38 Adds 2 to a and assigns the result to b
+# b = a + 2
+
+
+#39 Multiplies b times 4 and assigns the result to a
+# a = b * 4
+
+#40 Divides a by 3.14 and assigns the result to b
+# b = a / 3.14
+
+#41 Subtracts 8 from b and assigns the result to a
+# a = b - 8
+
+#42 Assume the variables result, w, x, y, and z are all integers, and that w = 5, x = 4, y = 8, and z = 2. What value will be stored in result after each of the following statements execute?
+
+#43 result = x + y 
+# 12
+
+#44 result = z * 2
+# 4
+
+#45 result = y / x
+# 2.0
+
+#46 result = y – z
+# 6
+
+#47 result = w // z
+# 2
+
+#48 Write a Python statement that assigns the sum of 10 and 14 to the variable total.
+# total=10+14
+
+# print(total)
+
+# output:
+
+# 24
+
+
+
+#49 Write a Python statement that subtracts the variable down_payment from the variable total and assigns the result to the variable due.
+# 
+# total =500
+# down_payment = 200
+# due = total - down_payment
+# print(due)
+
+
+#50 Write a Python statement that multiplies the variable subtotal by 0.15 and assigns the result to the variable total.
+#  total = subtotal * 0.15
+
+#51 What would the following display?
+#  a = 5
+#  b = 2
+#  c = 3
+#  result = a + b * c
+#  print(result)
+# 11
+
+
+
+
+
+
+
+
+
+
+
 
 questions = [
     Question(question_prompts[0], "c"),
@@ -97,7 +202,14 @@ questions = [
     Question(question_prompts[23], "t"),
     Question(question_prompts[24], "f"),
     Question(question_prompts[25], "t"),
-    Question(question_prompts[26], "f")
+    Question(question_prompts[26], "f"),
+    Question(question_prompts[27], "They would first need to understand the requirements that are needed for the program.  Requirements include the task or goals which the program has to perform."),
+    Question(question_prompts[28], "Puedo code is an informal description of an algorithm, which doesn't include syntax"),
+    Question(question_prompts[29], "input is received,some process has to be performed on the out,Output"),
+    Question(question_prompts[30], "The result would be given as float data."),
+    Question(question_prompts[31], "Float division: gives a decimal answer. Integer division: gives the answer in whole numbers"),
+    Question(question_prompts[32], "A unique value with unexplained meaning ,it makes code difficult to understand and maintain."),
+    Question(question_prompts[33], "The named constant makes the program more self-explanatory ,widespread changes can easily be made to the program,and  it helps to prevent the typographical errors that are common when using magic numbers"),
 
 ]
 

@@ -43,6 +43,14 @@ print('Spent: $',"%.2f"%(total_spent))
 
 if total_spent > budget:
     print('You are $',"%.2f"%(-(over_under_total)), 'over budget. PLAN BETTER NEXT TIME!')
+
+# Feedback to Learner
+# 2/20/23 8:29 AM
+# In 4.1, what if the difference is 0 have message for it too.
+elif total_spent == budget:
+    print('You are $',"%.2f"%((over_under_total)), 'over budget.Congratulatons on staying within budget!')
+
+
 else:
     print('You are $',"%.2f"%((over_under_total)), 'under budget.Great Job')
 
