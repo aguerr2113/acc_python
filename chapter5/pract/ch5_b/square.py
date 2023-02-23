@@ -14,3 +14,5 @@ def square_perimeter(side):
     perimeter = side+side+side+side
 
     return perimeter
+# print(square_area(8))
+# print(square_perimeter(8))

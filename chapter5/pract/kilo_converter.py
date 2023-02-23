@@ -20,12 +20,14 @@ constant = 0.6214
 # # that to the conversion function.
 def kilometer():
     kilos = float(input('Enter a distance in kilometers:'))
+    print(f'kilometers:{kilos}')
     return kilos
 
 # 4. The conversion function should calculate the miles and then display to
 # user
 def miles():
     miles = kilometer()*constant
-    print(miles)
+
+    print(f'miles:{miles}')
 
 miles()
