@@ -1,3 +1,5 @@
+# Artemio Guerrero,
+# complete,
 # Person 1 –write the main function which will:
 # 1. Generate a random integer between 1 and 100 which will be the
 # side of the square

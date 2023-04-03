@@ -1,3 +1,5 @@
+# Artemio Guerrero,
+# complete,
 # Person 2 – in a separate file called square.py:
 # 
 # 2. Define a function called square_perimeter which will accept
