@@ -1,16 +1,30 @@
-import random
+# Total Sales
+# Design a program that asks the user to enter a store’s sales for each day of the week. The amounts should be stored in a list. Use a loop to calculate the total sales for the week and display the result.
+# Sure, I can help you with that!
 
-# initialize an empty list with 7 zeros
-lottery_num = [0] * 7
+# IPO Chart:
 
-# generate 7 random numbers and assign each to a list element
-for i in range(7):
-    rand_num = random.randint(0, 9)
-    lottery_num[i] = rand_num
+# Input:
 
-print(lottery_num)
+# Store sales for each day of the week
+# Process:
 
-# display the contents of the list using a loop
-print("Lottery number:")
-for num in lottery_num:
-    print(num, end="")
+# Use a loop to iterate through each day of the week
+# Add each day's sales to a running total
+# Output:
+
+# Total sales for the week
+# Pseudo Code:
+
+# Initialize a list to store the sales for each day of the week
+# Use a loop to ask the user for the sales for each day of the week and store them in the list
+# Initialize a variable to keep track of the total sales and set it to zero
+# Use a loop to iterate through the sales list
+# Add each day's sales to the total sales variable
+# Display the total sales for the week
+
+weekdays = 7
+
+value = [] * weekdays
+for index in range(len(value)):
+    value[index] = float(input(f"please enter sales for day {}"))
