@@ -1,0 +1,92 @@
+0.5 You hear someone make the following comment: “A blueprint is a design for a house. A carpenter can use the blueprint to build the house. If the carpenter wishes, he or she can build several identical houses from the same blueprint.” Think of this as a metaphor for classes and objects. Does the blueprint represent a class, or does it represent an object?
+
+blueprint is the class house would be object
+
+
+
+10.6 In this chapter, we use the metaphor of a cookie cutter and cookies that are made from the cookie cutter to describe classes and objects. In this metaphor, are objects the cookie cutter, or the cookies?
+cutter would be cutter
+cookie would be object
+
+
+10.7 What is the purpose of the _ _init_ _ method? When does it execute?
+_ _init_ _ method is commonly known as an initializer method because it initializes the object’s data attributes. (The name of the method starts with two underscore characters, followed by the word init, followed by two more underscore characters.)
+
+
+10.8 What is the purpose of the self parameter in a method?
+Python makes the self parameter reference the specific object that the method is supposed to operate on.
+The parameter must be present in a method. You are not required to name it self, but this is strongly recommended to conform with standard practice.
+
+10.9 In a Python class, how do you hide an attribute from code outside the class?
+you use two underscores 
+n Python, you can hide an attribute by starting its name with two underscore characters. 
+
+10.10 What is the purpose of the _ _str_ _ method?
+to display a message that indicates an object’s state
+
+10.11 How do you call the _ _str_ _ method?
+you call it the same way as a function
+
+
+10.12 What is an instance attribute?
+
+10.13 A program creates 10 instances of the Coin class. How many _ _sideup attributes exist in memory?
+
+10.14 What is an accessor method? What is a mutator method?
+
+
+Practice Assignment Ch. 10-1
+Answer these questions (copy into Word or Notepad)
+1. What is encapsulation?
+2. Why should an object’s data attributes be hidden from code
+outside the class?
+3. What is the difference between a class and an instance of a
+class?
+4. The following statement calls an object’s method. What is
+the name of the method? What is the name of the variable
+that references the object?
+wallet.get_dollar()
+5. When the __init__ method executes, what does the self
+parameter reference?
+6. In a Python class, how do you hide an attribute from code
+outside the class?
+7. How do you call the __str__ method?
+
+
+Write a class named Pet, which should have the following data attributes:
+*__name(for the name of a pet)
+*__animal_type(for the type of animal that pet is. Example values are 'Dog','Cat',and'Bird')
+*__age(for the pets age)
+
+The Pet class should have an __init__ method that creates these attributes. It shoul dalso have the following mehtods:
+
+* set_name
+	This method assigns a value to the __name filed.
+
+* set_animal_type
+	This method assigns a value to the __animal_type filed.
+
+* set_age
+	This method assigns a value to the __age filed.
+
+* get_name
+	This method returns a value to the __name filed.
+
+* get_name
+	This method returns a value to the __name filed.
+
+* get_name
+	This method returns a value to the __name filed.
+
+Once you have written the class, write a program that creates an object of the class and prompts the user to enter name,
+type, and age of his or her pet.
+THis data should be storedas the object's attributes. Use the object's accessor methods to retrieve the pet's name,type, and age and display this data on the screen.
+
+You should have 2
+files:
+• One for the
+class
+• One for the
+class
+implementation
+(main program)

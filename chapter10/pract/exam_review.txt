@@ -1,0 +1,145 @@
+----------------------------------------------------------------------------------------------------------------------------
+1. Create a list called int_list, with contents 1 through 4 (that is, the first one has value 1,
+the second has value 2, etc.).
+
+int_list = [1, 2, 3, 4]
+----------------------------------------------------------------------------------------------------------------------------
+
+2. Create a list, dlist, which consist initially of ten values that are all 3.14. Try to avoid typing
+3.14 ten
+times
+
+dlist = [3.14] * 10
+
+----------------------------------------------------------------------------------------------------------------------------
+import random
+rand_list = [random.randint(0, 100) for i in range(20)]
+
+----------------------------------------------------------------------------------------------------------------------------
+num_list = [0] * 8
+
+
+----------------------------------------------------------------------------------------------------------------------------
+for i in range(len(num_list)):
+    num_list[i] = i+2
+
+
+----------------------------------------------------------------------------------------------------------------------------
+for i in range(len(num_list)):
+    num_list[i] = (len(num_list) - i) * 2
+
+
+----------------------------------------------------------------------------------------------------------------------------
+for i in range(len(num_list)):
+    num_list[i] = i
+
+
+----------------------------------------------------------------------------------------------------------------------------
+for i in range(len(num_list)):
+    num_list[i] = num_list[i] // 3
+
+
+----------------------------------------------------------------------------------------------------------------------------
+# del removes an item from the list
+# min returns the smallest value in the list
+# max returns the largest value in the list
+# len returns the number of items in the list
+----------------------------------------------------------------------------------------------------------------------------
+my_list = [5, 3, 7, 1, 9]
+del my_list[2] # remove the item at index 2, which is 7
+print(min(my_list)) # print the smallest value in the list, which is 1
+print(max(my_list)) # print the largest value in the list, which is 9
+print(len(my_list)) # print the number of items in the list, which is 4
+
+
+----------------------------------------------------------------------------------------------------------------------------
+# isalnum() returns True if all characters in the string are alphanumeric (letters or numbers)
+# isalpha() returns True if all characters in the string are letters
+# isdigit() returns True if all characters in the string are digits
+# islower() returns True if all characters in the string are lowercase letters
+# isupper() returns True if all characters in the string are uppercase letters
+# isspace() returns True if all characters in the string are whitespace characters
+
+my_string = "Hello World 123"
+print(my_string.isalnum()) # False
+print(my_string.isalpha()) # False
+print(my_string.isdigit()) # False
+print(my_string.islower()) # False
+print(my_string.isupper()) # False
+print(my_string.isspace()) #
+
+
+count = 0
+for char in my_string:
+    if char.islower():
+        count += 1
+print("Number of lowercase letters:", count)
+
+
+
+mylist = mystring.split()
+print(mylist)
+
+
+
+Hat             10              12.50
+
+
+def main():
+    items = [
+        RetailItem("Jacket", 12, 59.95),
+        RetailItem("Jeans", 40, 34.95),
+        RetailItem("Shirt", 20, 24.95)
+    ]
+    print("=============================")
+    print("Name\tUnits in Inventory\tPrice")
+    print("=============================")
+    for item in items:
+        print(item)
+
+if __name__ == '__main__':
+    main()
+=============================
+Name    Units in Inventory      Price
+=============================
+Jacket          12              59.95
+Jeans           40              34.95
+Shirt           20              24.95
+
+
+class RetailItem:
+    def __init__(self, name, num_on_hand, price):
+        self.__name = name
+        self.__num_on_hand = num_on_hand
+        self.__price = price
+    
+    def __str__(self):
+        return self.__name+'\t'+'\t'+str(self.__num_on_hand) + '\t'+'\t'+ \
+        format(self.__price,".2f")
+
+    def get_total_value(self):
+        return self.__num_on_hand * self.__price
+
+    def set_on_hand(self, quantity):
+        self.__num_on_hand += quantity
+
+
+
+my_dict = {'a': 1, 'b': 2, 'c': 3}
+
+
+
+my_dict = {}
+
+
+import pickle
+
+with open('mydata.dat', 'wb') as f:
+    pickle.dump(my_dict, f)
+
+
+
+import pickle
+
+with open('mydata.dat', 'rb') as f:
+    my_dict = pickle.load(f)
