@@ -80,7 +80,7 @@ questions = [
     Question(question_prompts[18], "t"),
     Question(question_prompts[19], "t"),
     Question(question_prompts[20], "f"),
-    Question(question_prompts[21], "t"),
+    Question(question_prompts[21], "f"),
     Question(question_prompts[22], "t"),
     Question(question_prompts[23], "f"),
     Question(question_prompts[24], "t"),

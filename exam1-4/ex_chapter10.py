@@ -42,7 +42,7 @@ question_prompts = [
 ]
 
 questions = [
-    Question(question_prompts[0],"a"),
+    Question(question_prompts[0],"b"),
     Question(question_prompts[1],"d"),
     Question(question_prompts[2],"c"),
     Question(question_prompts[3],"d"),
@@ -60,8 +60,8 @@ questions = [
     Question(question_prompts[14], "f"),
     Question(question_prompts[15], "f"),
     Question(question_prompts[16], "t"),
-    Question(question_prompts[17], "f"),
-    Question(question_prompts[18], "t"),
+    Question(question_prompts[17], "t"),
+    Question(question_prompts[18], "f"),
 ]
 
 
